@@ -25,7 +25,7 @@ export default function MainMenu({ activeTab, setActiveTab }) {
         
         <nav className="flex gap-2 sm:gap-3">
           {navTabs.map((tab) => {
-            const Icon = tab.icon;
+            const Icon = tab.icon;7
             const isActive = activeTab === tab.id;
             return (
               <button
