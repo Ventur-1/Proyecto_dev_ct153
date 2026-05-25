@@ -1,13 +1,13 @@
-// Archivo: src/components/MainMenu.jsx
 import React from 'react';
-import { Terminal, LayoutDashboard, PlayCircle, Layers, Grid } from 'lucide-react';
+import { Terminal, LayoutDashboard, Layers, Grid, Users } from 'lucide-react';
 
 export default function MainMenu({ activeTab, setActiveTab }) {
+  // Eliminamos 'game' (Modo Gritón) y dejamos 'multiplayer' (Multijugador)
   const navTabs = [
     { id: 'dashboard', label: 'Instructivo', icon: LayoutDashboard },
     { id: 'deck', label: 'Ver Mazo', icon: Layers },
     { id: 'boards', label: 'Planillas', icon: Grid },
-    { id: 'game', label: 'Modo Gritón', icon: PlayCircle, special: true },
+    { id: 'multiplayer', label: 'Multijugador', icon: Users, special: true },
   ];
 
   return (
@@ -19,13 +19,13 @@ export default function MainMenu({ activeTab, setActiveTab }) {
           </div>
           <div>
             <h1 className="text-2xl font-black loteria-font tracking-wide text-white">Lotería del Dev</h1>
-            <p className="text-xs font-mono text-emerald-500 uppercase tracking-widest mt-0.5">Arquitectura Desacoplada</p>
+            <p className="text-xs font-mono text-emerald-500 uppercase tracking-widest mt-0.5">Versión 2.0</p>
           </div>
         </div>
         
         <nav className="flex gap-2 sm:gap-3">
           {navTabs.map((tab) => {
-            const Icon = tab.icon;7
+            const Icon = tab.icon;
             const isActive = activeTab === tab.id;
             return (
               <button

@@ -6,7 +6,7 @@ export const conceptsData = [
   { id: 4, name: 'El monitor', category: 'Hardware', clue: '¡La ventana de luz! La pantalla que te muestra con colores lo que hace el procesador.', fallbackEmoji: '📺' },
   { id: 5, name: 'El mause', category: 'Hardware', clue: 'Lo mueves con la mano para desplazar la flecha por la pantalla y hacer clics.', fallbackEmoji: '🖱️' },
   { id: 6, name: 'El teclado', category: 'Hardware', clue: 'Lleno de letras y números, es tu herramienta principal para escribir código.', fallbackEmoji: '⌨️' },
-  { id: 7, name: 'Los audífonos', category: 'Hardware', clue: 'Te aíslan del mundo con tu música favorita para entrar en la zona de máxima concentración.', fallbackEmoji: '🎧' },
+  { id: 7, name: 'Los audífonos', category: 'Hardware', clue: 'Te aíslan del mundo con tu música favorita para entrar en la zona de máxima conceantración.', fallbackEmoji: '🎧' },
   { id: 8, name: 'La tarjeta madre', category: 'Hardware', clue: 'La gran autopista electrónica donde se conectan el procesador, la RAM y todo lo demás.', fallbackEmoji: '🎛️' },
   { id: 9, name: 'El disco duro', category: 'Hardware', clue: 'El gran almacén digital. Guarda tus fotos, juegos y archivos aunque la computadora esté apagada.', fallbackEmoji: '💾' },
   { id: 10, name: 'La fuente de poder', category: 'Hardware', clue: 'El corazón eléctrico. Transforma la luz de la pared en la energía exacta que la PC necesita.', fallbackEmoji: '🔌' },
